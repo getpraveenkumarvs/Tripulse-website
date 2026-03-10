@@ -168,7 +168,7 @@
     // Handle agent request at any step
     if (lower.includes('talk to') && lower.includes('agent') || lower === 'talk to an agent') {
       await botSay("Sure! You can reach our team directly:");
-      await botSay("📞 <a href='tel:+919886478035'>+91-9886478035</a><br>📧 <a href='mailto:support@tripulse.in'>support@tripulse.in</a><br>We'll get back to you within 1 hour! 🙂");
+      await botSay("📞 <a href='tel:+919845921631'>+91-9845921631</a><br>📧 <a href='mailto:support@tripulse.in'>support@tripulse.in</a><br>We'll get back to you within 1 hour! 🙂");
       return;
     }
 
@@ -269,7 +269,7 @@
         break;
 
       case 'DONE':
-        await botSay("Thanks for chatting, " + (lead.name || 'there') + "! Feel free to reach us anytime at 📞 <a href='tel:+919886478035'>+91-9886478035</a>. Have a great day! 🌟");
+        await botSay("Thanks for chatting, " + (lead.name || 'there') + "! Feel free to reach us anytime at 📞 <a href='tel:+919845921631'>+91-9845921631</a>. Have a great day! 🌟");
         break;
 
       default:
@@ -420,7 +420,7 @@
       console.error('Chatbot submission error:', err);
       if (!isPartial) {
         await botSay("There was a small hiccup, but don't worry! Our team will still reach you.");
-        await botSay("📞 <a href='tel:+919886478035'>+91-9886478035</a>");
+        await botSay("📞 <a href='tel:+919845921631'>+91-9845921631</a>");
       }
     }
 
